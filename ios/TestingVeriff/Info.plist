@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>TestingVeriff</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Votre caméra sera utilisée pour scanner vos documents lors de l’inscription à Cityscoot et pour vous permettre de signaler un problème en cas de besoin.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Votre microphone sera utilisée pour scanner vos documents lors de l’inscription à Cityscoot et pour vous permettre de signaler un problème en cas de besoin.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Votre position sera affichée sur la carte et sera utilisée pour vous fournir itinéraires, résultats de recherches à proximité et temps de trajet estimés.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Votre position sera affichée sur la carte et sera utilisée pour vous fournir itinéraires, résultats de recherches à proximité et temps de trajet estimés.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Votre position sera affichée sur la carte et sera utilisée pour vous fournir itinéraires, résultats de recherches à proximité et temps de trajet estimés.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Votre caméra sera utilisée pour scanner vos documents lors de l’inscription à Cityscoot et pour vous permettre de signaler un problème en cas de besoin.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Votre caméra sera utilisée pour scanner vos documents lors de l’inscription à Cityscoot et pour vous permettre de signaler un problème en cas de besoin.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Cela nous permet de mieux comprendre vos usages et améliorer le service Cityscoot.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+  <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+  <array>
+    <string>A0000002471001</string>
+    <string>A0000002472001</string>
+    <string>00000000000000</string>
+  </array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
