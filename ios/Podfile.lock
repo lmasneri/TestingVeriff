@@ -353,7 +353,7 @@ PODS:
     - React-logger (= 0.68.5)
     - React-perflogger (= 0.68.5)
   - SocketRocket (0.6.0)
-  - VeriffSDK (6.1.0)
+  - VeriffSDK (4.52.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -414,6 +414,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - VeriffSDK (= 4.52.0)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -549,10 +550,10 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: b1f1995089b90696dbc2a7ffe0059a80db5c8eb1
   ReactCommon: 149e2c0acab9bac61378da0db5b2880a1b5ff59b
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
-  VeriffSDK: c256788f8e32a5a9c8ad3b04fc0320a0e9753029
+  VeriffSDK: 57a5cc0d2ed093ca7815fb6c6783ee9494d8f179
   Yoga: c4d61225a466f250c35c1ee78d2d0b3d41fe661c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: fc6f88c6a126786626f2f16b2ae87cbea2c4e873
+PODFILE CHECKSUM: 186f3ae8924365ba17336a0325e0791f4a29e380
 
 COCOAPODS: 1.11.3
