@@ -1476,10 +1476,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@veriff/react-native-sdk@^2.13.0":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@veriff/react-native-sdk/-/react-native-sdk-2.13.0.tgz#9d356a759c0c07c991746c6aa640c606937a287b"
-  integrity sha512-TfJnCQoj04wjBIMNbtZlCtR5ItgIXxPkeftSaZkVubKhq+5Sva3ceTeqTHahCidlWr6zKqrfJ7Nm/cRGWB8j8g==
+"@veriff/react-native-sdk@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@veriff/react-native-sdk/-/react-native-sdk-3.0.0.tgz#9d5a4ff2222bc0b15f60bd05565dcb7016b316c5"
+  integrity sha512-d7g/y6mEafnjeYSH6+DjyhSszXqCO/Ezx0VSRiPIKPH+QvAesHsCXzbVOZQ2D0Je05EgGHt1LDwcWhcgFUIsUQ==
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
