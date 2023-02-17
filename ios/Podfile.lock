@@ -74,7 +74,6 @@ PODS:
   - fmt (6.2.1)
   - glog (0.3.5)
   - libevent (2.1.12)
-  - lottie-ios (4.1.2)
   - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.06.28.00-v2):
     - boost
@@ -283,10 +282,9 @@ PODS:
   - React-jsinspector (0.68.5)
   - React-logger (0.68.5):
     - glog
-  - react-native-sdk (2.13.0):
-    - lottie-ios
+  - react-native-sdk (3.0.0):
     - React
-    - VeriffSDK (>= 4.34.0)
+    - VeriffSDK (= 6.1.0)
   - React-perflogger (0.68.5)
   - React-RCTActionSheet (0.68.5):
     - React-Core/RCTActionSheetHeaders (= 0.68.5)
@@ -353,7 +351,7 @@ PODS:
     - React-logger (= 0.68.5)
     - React-perflogger (= 0.68.5)
   - SocketRocket (0.6.0)
-  - VeriffSDK (4.52.0)
+  - VeriffSDK (6.1.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -414,7 +412,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - VeriffSDK (= 4.52.0)
+  - VeriffSDK (= 6.1.0)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -431,7 +429,6 @@ SPEC REPOS:
     - FlipperKit
     - fmt
     - libevent
-    - lottie-ios
     - OpenSSL-Universal
     - SocketRocket
     - VeriffSDK
@@ -521,7 +518,6 @@ SPEC CHECKSUMS:
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 476ee3e89abb49e07f822b48323c51c57124b572
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  lottie-ios: b3846a9fa8ca1a1a3bebfa256ebe8b6fd4aaaaad
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 4d8508a426467c48885f1151029bc15fa5d7b3b8
   RCTRequired: 0f06b6068f530932d10e1a01a5352fad4eaacb74
@@ -536,7 +532,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 45c0496ca8cef6b02d9fa0274c25cf458fe91a56
   React-jsinspector: eb202e43b3879aba9a14f3f65788aec85d4e1ea9
   React-logger: 98f663b292a60967ebbc6d803ae96c1381183b6d
-  react-native-sdk: ca0dd8f806e36becda4ebae9ee6749da4f7c1a5a
+  react-native-sdk: 1efb8bcb08773ebd73680857d9bc3cbc41c7b996
   React-perflogger: 0458a87ea9a7342079e7a31b0d32b3734fb8415f
   React-RCTActionSheet: 22538001ea2926dea001111dd2846c13a0730bc9
   React-RCTAnimation: 732ce66878d4aa151d56a0d142b1105aa12fd313
@@ -550,10 +546,10 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: b1f1995089b90696dbc2a7ffe0059a80db5c8eb1
   ReactCommon: 149e2c0acab9bac61378da0db5b2880a1b5ff59b
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
-  VeriffSDK: 57a5cc0d2ed093ca7815fb6c6783ee9494d8f179
+  VeriffSDK: c256788f8e32a5a9c8ad3b04fc0320a0e9753029
   Yoga: c4d61225a466f250c35c1ee78d2d0b3d41fe661c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 186f3ae8924365ba17336a0325e0791f4a29e380
+PODFILE CHECKSUM: 2cc85756a40db9666899a407939142aa319c35a2
 
 COCOAPODS: 1.11.3
